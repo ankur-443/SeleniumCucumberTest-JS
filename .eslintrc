@@ -1,0 +1,19 @@
+# Example eslintrc file:
+# https://github.com/erikras/react-redux-universal-hot-example/blob/master/.eslintrc
+
+extends: eslint-config-airbnb
+
+env:
+  node: true
+  browser: true
+
+globals:
+  CLIENT: true
+
+parser: babel-eslint
+
+rules:
+  new-cap: 0
+  func-names: 0
+  import/no-extraneous-dependencies: 0
+  # import/no-unresolved: 0 # TODO: Figure out how to get this working
